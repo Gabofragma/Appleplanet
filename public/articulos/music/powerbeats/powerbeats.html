@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>POWERBEATS PRO - Appleplanet</title>
+</head>
+
+<body>
+
+    <header class="bar_appleplanet">
+        <div class="contenedor header_content">
+            <a class="logo_bar" href="/">
+                <img class="logo" src="img//appleplanet.png" alt="Menu Icon ">
+            </a>
+
+            <nav id="navegacion" class="navegacion">
+                <a href="/mac.html">MAC</a>
+                <a href="/ipad.html">IPAD</a>
+                <a href="/iphone.html">IPHONE</a>
+                <a href="/watch.html">WATCH</a>
+                <a href="/tv.html">TV</a>
+                <a href="/music.html">MUSIC</a>
+                <a href="/accesorios/html">ACCESORIES</a>
+                <a href="https://www.instagram.com/appleplanet.ccs/"> <img src="img//instagram.png" alt="instagram" class="iconos-redes-barra"> </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- <div class="article-img">
+        <img src="img../img/_3.png" alt="">
+
+
+
+    </div> -->
+
+    <div class="contenedor-grid intro-article">
+
+        <div class="image-grid">
+
+            <div class="container">
+                <img id="expandedImg" style="width:100%">
+            </div>
+
+            <!-- The four columns -->
+            <div class="row miniaturas">
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//1.jpg" alt="Nature" style="width:100%" id="first" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//2.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//3.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//4.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//5.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//6.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//7.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="/articulos/music/powerbeatsimg//8.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                </div>
+            </div>
+        </div>
+
+        <div class="text-grid">
+
+            <h2>POWERBEATS PRO</h2>
+            <p>iphone7</p>
+            <a href="/contact.html">
+                <div>
+                    <img class="contact-grid" src="img//whatsapp-white.png" alt="">
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <div class="specs-text">
+
+        <h2>Specs</h3>
+
+            <div class="img-specs">
+
+
+
+            </div>
+
+    </div>
+
+    <div class="contact-whatsapp">
+
+        <h3>CONTACT</h3>
+
+        <a href="/">
+            <img class="img-whatsapp" src="img//whatsapp-white.png" alt="">
+        </a>
+
+        <p>Preguntar Disponibilidad</p>
+
+    </div>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor index-footer">
+
+            <div>
+                <nav class="navegacion">
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <div class="copyright_footer">
+                <p class="copyright">Todos los Derechos Reservados 2021 &copy; </p>
+                <img class="zelle_logo" src="img//Zelle_logo.svg" alt="">
+                <img class="banesco_panama" src="img//banesco_panama.png" alt="">
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+        }
+
+        let aux = document.getElementById('first')
+        aux.click()
+    </script>
+</body>
+
+</html>

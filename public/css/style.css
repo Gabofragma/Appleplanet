@@ -1,0 +1,777 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #f2f2f2;
+}
+
+
+/******** UTILIDADES *******/
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    /** = 1200px; **/
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+
+/********* BAR *******/
+
+.bar_appleplanet {
+    background-color: black;
+    height: 10%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.header_content {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo_bar {
+    width: 15%;
+    padding-right: 30px;
+    margin-right: 80px;
+}
+
+.logo {
+    max-width: 110%;
+}
+
+.iconos-redes-barra {
+    height: 20px;
+}
+
+
+/** Navegacion **/
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline-block;
+        font-size: 1.2rem;
+        /** = 18px **/
+        margin-right: 6rem;
+        text-decoration: white!important;
+    }
+    .navegacion a:last-of-type {
+        margin: 0;
+    }
+}
+
+.navegacion a:hover {
+    color: green;
+}
+
+.navegacion-mobile {
+    display: none;
+}
+
+
+/****** Main *******/
+
+.img_header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: space-between;
+}
+
+.img_header a {
+    margin: 3%;
+}
+
+.text_header {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .img_header {
+        flex-basis: calc(33.3% - 1rem);
+    }
+}
+
+.img-head {
+    width: 100%
+}
+
+.img-head-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.text-index h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.boton-head {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 10%;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    margin-left: 45%;
+}
+
+.boton-head a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.products-head {
+    margin-top: 50px;
+    margin-bottom: 3%;
+}
+
+.products-head a {
+    margin-left: 20px;
+}
+
+
+/******** ARTICLES ***********/
+
+.mac-image {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.articles-list {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white!important;
+    background-color: white;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.img-article {
+    width: 80%;
+}
+
+.text-article {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.grid-article {
+    padding-top: 20px;
+}
+
+.grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.iphone-image {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.tv-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+.ipad-image {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.img-ipad {
+    height: 20%;
+}
+
+.watch-image {
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbfd;
+    margin-top: 40px;
+}
+
+.contact-grid {
+    width: 10%;
+    padding-top: 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tv_article {
+    background-color: white;
+}
+
+.tv_img {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tv_img a {
+    text-decoration: none;
+}
+
+.music-image {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.overflow-auto {
+    width: 1400px;
+    height: 1000px;
+    overflow: auto;
+}
+
+.specs-content {
+    text-align: left;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+/************** Articulo ***********/
+
+.article-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%;
+    margin-left: -20%;
+}
+
+
+/*********** Image grid ************/
+
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: center;
+}
+
+
+/* The expanding image container */
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+/* Expanding image text */
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Closable button inside the expanded image */
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.image-grid {
+    width: 45%;
+    /* margin-right: 100px; */
+}
+
+.intro-article {
+    display: flex;
+    justify-content: space-between
+}
+
+.miniaturas {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-grid {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.specs-text {
+    text-align: center;
+    text-decoration: black;
+}
+
+.img-specs {
+    line-height: 0;
+}
+
+.contact-whatsapp {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.img-whatsapp {
+    width: 10%;
+}
+
+.container-details {
+    background-color: white;
+    height: 55vh;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.details {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.icon-rrss {
+    height: 3vh;
+}
+
+.product-name {
+    margin-bottom: 0px;
+}
+
+.main-delivery {
+    background-color: rgba(214, 214, 214, 0.385);
+    width: 85%;
+    margin-left: 8%;
+    display: block;
+    border-radius: 20px;
+}
+
+.title-product {
+    font-weight: 500;
+    padding-top: 2%;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.delivery-op {
+    display: flex;
+    justify-content: center;
+}
+
+.options-items {
+    height: 3.5vh;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    font-size: 600;
+}
+
+.condition {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0px;
+    color: rgb(57, 158, 57);
+}
+
+.contact-article {
+    display: flex;
+    height: 5vh;
+    padding-top: 0;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.contact-article a {
+    margin-right: 5%;
+}
+
+
+/** Footer **/
+
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+
+.index-footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .index-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.site-footer nav {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .site-footer nav {
+        display: block;
+    }
+}
+
+.copyright_footer {
+    display: block;
+    text-align: end;
+}
+
+.copyright {
+    margin: 0;
+    color: #ffffff;
+    font-size: 8px;
+}
+
+.zelle_logo {
+    width: 4%;
+    padding-top: 1%;
+}
+
+.banesco_panama {
+    width: 2%;
+    padding-top: 1%;
+}
+
+.navegacion-footer a {
+    color: #ffffff;
+    text-decoration: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .navegacion-footer a {
+        display: inline-block;
+        font-size: 1.2rem;
+        /** = 18px **/
+        margin-right: 6rem;
+        text-decoration: white!important;
+    }
+    .navegacion-footer a:last-of-type {
+        margin: 0;
+    }
+}
+
+.navegacion-footer a:hover {
+    color: rgb(238, 186, 16);
+}
+
+.articles-list a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/****** SCROLL *******/
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/************** MEDIA QUERY ******************/
+
+@media only screen and (max-width:768px) {
+    .img_header {
+        display: flex;
+        flex-direction: column;
+        margin: 4px 8px;
+    }
+    .img-head-2 {
+        width: 100%;
+        height: 40vh;
+    }
+    .boton-head {
+        max-width: 100px;
+        display: flex;
+        margin: 0px 35%;
+    }
+    .intro-article {
+        display: block;
+    }
+    .product-name {
+        text-align: center;
+    }
+    .overflow-auto {
+        width: auto;
+        height: 40vh;
+        margin: 0px 8px
+    }
+    .image-grid {
+        width: 100%;
+    }
+    .container-details {
+        width: 100%;
+    }
+    .mac-image {
+        width: 80%;
+        height: 30vh;
+    }
+    .grid {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .options-items {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .specs-content {
+        background-color: white;
+    }
+    .music-image img {
+        height: 19.9vh;
+    }
+    .tv-image img {
+        height: 26.1vh;
+    }
+    .watch-image img {
+        height: 20vh;
+    }
+    .iphone-image img {
+        height: 18.2vh;
+    }
+    .ipad-image img {
+        height: 20vh;
+    }
+    .mac-image img {
+        height: 30vh;
+    }
+    .text-article {
+        font-size: 8px;
+    }
+    .navegacion {
+        display: none;
+    }
+    .navegacion-mobile {
+        display: block;
+    }
+    .header_content {
+        height: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .logo_bar {
+        width: 60%;
+        padding-right: 100px;
+        margin-left: 70px;
+        margin-right: 0;
+    }
+    #menuToggle {
+        display: block;
+        position: relative;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #menuToggle a {
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+    }
+    #menuToggle a:hover {
+        color: tomato;
+    }
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        /* hide this */
+        z-index: 2;
+        /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+    /*
+ * Just a quick hamburger
+ */
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+    #menuToggle input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+    /*
+ * But let's hide the middle one.
+ */
+    #menuToggle input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    /*
+ * Ohyeah and the last one should go the other direction
+ */
+    #menuToggle input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+    #menu li {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+    /*
+ * And let's slide it in from the left
+ */
+    #menuToggle input:checked~ul {
+        transform: none;
+    }
+}

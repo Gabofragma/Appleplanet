@@ -1,0 +1,199 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #f2f2f2;
+}
+
+
+/******** UTILIDADES *******/
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    /** = 1200px; **/
+    margin: 0 auto;
+}
+
+
+/********* BAR *******/
+
+.bar_appleplanet {
+    background-color: black;
+    height: 10%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.header_content {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo_bar {
+    width: 15%;
+    padding-right: 30px;
+    margin-right: 80px;
+}
+
+.logo {
+    max-width: 110%;
+}
+
+.iconos-redes-barra {
+    height: 20px;
+}
+
+
+/** Navegacion **/
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline-block;
+        font-size: 1.2rem;
+        /** = 18px **/
+        margin-right: 6rem;
+        text-decoration: white!important;
+    }
+    .navegacion a:last-of-type {
+        margin: 0;
+    }
+}
+
+.navegacion a:hover {
+    color: orange;
+}
+
+
+/****** Main *******/
+
+.img_header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .img_header {
+        flex-basis: calc(33.3% - 1rem);
+    }
+}
+
+.img-head {
+    width: 100%
+}
+
+.img-head-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.boton-head {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 10%;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.boton-head a {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    height: 45px;
+    padding-top: 7px;
+    font-weight: 700;
+}
+
+.products-head {
+    padding-top: 50px;
+}
+
+.products-head a {
+    margin-left: 20px;
+    padding-bottom: 10%;
+}
+
+
+/******** ARTICLES ***********/
+
+.mac-image {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.articles-list {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white!important;
+    background-color: white;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.img-article {
+    width: 100%;
+}
+
+.text-article {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.grid-article {
+    padding-top: 20px;
+}
+
+.grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ipad-image {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.img-ipad {
+    width: 20%;
+}
